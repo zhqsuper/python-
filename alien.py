@@ -14,7 +14,7 @@ class Alien(Sprite):
         self.settings = ai_game.settings
 
         # 外星人图像和尺寸信息
-        self.image = pygame.image.load("./images/alien_64.bmp")
+        self.image = pygame.image.load("./images/alien_64.png")
         self.rect = self.image.get_rect()
 
         # 定位

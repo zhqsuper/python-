@@ -23,7 +23,7 @@ class Ship(BaseSprite):
         self.settings = ai_game.settings
 
         # 飞船+图像
-        self.image = pygame.image.load("./images/plane_80.bmp")
+        self.image = pygame.image.load("./images/plane_80.png")
         # 飞船-尺寸坐标
         self.rect = self.image.get_rect()
 

@@ -1,0 +1,18 @@
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# python缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE配置
+.vscode/
+.idea/
+
+# 其他临时文件
+*.swp
+*.swo
